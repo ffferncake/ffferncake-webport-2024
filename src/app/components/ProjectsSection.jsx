@@ -48,8 +48,8 @@ const projectsData = [
       "An app that checks the area or location of protected forests and checks for overlapping forests",
     image: "/images/portfolio/forest_mobile.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/"
+    // gitUrl: "/",
+    // previewUrl: "/"
   },
   {
     id: 6,
