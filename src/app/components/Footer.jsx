@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container p-12 flex justify-between">
         <span>Fern Nichanun</span>
-        <p className="text-slate-600">Inspired by 'webdecoded'</p>
+        <p className="text-slate-600">Inspired by webdecoded</p>
       </div>
     </footer>
   );
