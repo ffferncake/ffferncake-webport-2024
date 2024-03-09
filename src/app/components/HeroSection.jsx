@@ -4,10 +4,10 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import GithubIcon from "../../../public/images/sns-icon/github - negative.png";
-import LinkedinIcon from "../../../public/images/sns-icon/linkedIn - negative.png";
-import InstragramIcon from "../../../public/images/sns-icon/instagram - negative.png";
-import MediumIcon from "../../../public/images/sns-icon/medium - negative.png";
+import GithubIcon from "../../../public/images/sns-icon/github_negative.png";
+import LinkedinIcon from "../../../public/images/sns-icon/linkedIn_negative.png";
+import InstragramIcon from "../../../public/images/sns-icon/instagram_negative.png";
+import MediumIcon from "../../../public/images/sns-icon/medium_negative.png";
 import KakaoIcon from "../../../public/images/sns-icon/kakao.png";
 import LineIcon from "../../../public/images/sns-icon/line_white.png";
 
