@@ -122,7 +122,16 @@ const projectsData = [
     tag: ["All", "Design"],
     // gitUrl: "/",
     // previewUrl: "/"
-  }
+  },
+  {
+    id: 14,
+    title: "Web Portfolio",
+    description: "My portfolio website",
+    image: "/images/portfolio/web_port_v1.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ffferncake/ffferncake-webport",
+    previewUrl: "https://ferncake.netlify.app/"
+  },
 ];
 
 const ProjectsSection = () => {
