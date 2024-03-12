@@ -2,7 +2,8 @@
 import React, { useTransition, useState, useEffect } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-import KusIcon from "../../../public/images/education/kus.gif";
+import KusIcon from
+ "../../../public/images/education/kus.gif";
 import KuIcon from "../../../public/images/education/ku-modified.png";
 import YonseiIcon from "../../../public/images/education/YonseiUniversityEmblem.png";
 import GISIcon from "../../../public/images/education/gis_logo.png";
@@ -25,7 +26,7 @@ const TAB_DATA = [
         <li>QGIS/ArcGIS Pro/ArcMap</li>
         <li>GeoServer/MapServer</li>
       </ul>
-    ),
+    )
   },
   {
     title: "lang-Skills",
@@ -37,7 +38,7 @@ const TAB_DATA = [
         <li>TOEIC (English) : 850/990 </li>
         <li>IELTS (English) : 6.5/9.0 </li>
       </ul>
-    ),
+    )
   },
   {
     title: "Education",
@@ -111,7 +112,7 @@ const TAB_DATA = [
           </li>
         </ol>
       </ul>
-    ),
+    )
   },
   {
     title: "Certifications",
@@ -132,7 +133,7 @@ const TAB_DATA = [
         </li>
         <li>Outstanding Scholarship (Kasetsart University)</li>
       </ul>
-    ),
+    )
   },
   {
     title: "Experience",
@@ -229,8 +230,8 @@ const TAB_DATA = [
           </li>
         </ol>
       </ul>
-    ),
-  },
+    )
+  }
 ];
 
 const AboutSection = () => {
@@ -275,10 +276,10 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-md">
             I am a front-end developer. I have experience in web and mobile
-            development using JavaScript, React, React Native, Node.js,
-            PostgreSQL, HTML, CSS, and Git especially in terms of maps and
-            spatial data. I also have experience in databases, especially
-            spatial databases, ETL, data management, and working with APIs.
+            development JavaScript, React, React Native, Node.js, PostgreSQL,
+            HTML, CSS, and Git especially in terms of maps. I also have
+            experience in databases, especially spatial databases, ETL, data
+            management, and working with APIs.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
