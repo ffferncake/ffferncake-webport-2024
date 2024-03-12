@@ -132,15 +132,6 @@ const projectsData = [
     gitUrl: "https://github.com/ffferncake/ffferncake-webport",
     previewUrl: "https://ferncake.netlify.app/"
   },
-  {
-    id: 15,
-    title: "Baram Travel Agency",
-    description: "Mock-up travel agency website design",
-    image: "/images/portfolio/Baram_design.png",
-    tag: ["All", "Design"],
-    // gitUrl: "https://github.com/ffferncake/ffferncake-webport",
-    // previewUrl: "https://ferncake.netlify.app/"
-  },
 ];
 
 const ProjectsSection = () => {

@@ -137,7 +137,7 @@ const projectsData = [
     title: "Baram Travel Agency",
     description: "Mock-up travel agency website design",
     image: "/images/portfolio/Baram_design.png",
-    tag: ["All", "Design"],
+    tag: ["All", "Web"],
     // gitUrl: "https://github.com/ffferncake/ffferncake-webport",
     // previewUrl: "https://ferncake.netlify.app/"
   },
