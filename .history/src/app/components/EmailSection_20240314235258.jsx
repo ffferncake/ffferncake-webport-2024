@@ -41,7 +41,7 @@ const EmailSection = () => {
         function (response) {
           console.log("Email sent successfully", response);
           alert(
-            "Email sent successfully. I will get back to you shortly."
+            "Email sent successfully. I will send you my resume and portfolio shortly."
           );
           setEmailSubmitted(true);
         },

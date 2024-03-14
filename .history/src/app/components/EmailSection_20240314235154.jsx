@@ -17,8 +17,8 @@ const EmailSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     const userEmail = e.target.email.value;
-    const subject = e.target.subject.value;
-    const message = e.target.message.value;
+    const subject = document.getElementById("subjectInput").value;
+    const message = document.getElementById("messageInput").value;
 
     if (!isValidEmail(userEmail)) {
       alert("Please enter a valid email address.");
@@ -41,7 +41,7 @@ const EmailSection = () => {
         function (response) {
           console.log("Email sent successfully", response);
           alert(
-            "Email sent successfully. I will get back to you shortly."
+            "Email sent successfully. I will send you my resume and portfolio shortly."
           );
           setEmailSubmitted(true);
         },

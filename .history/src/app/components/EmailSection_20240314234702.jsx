@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from "react";
 import GithubIcon from "../../../public/images/sns-icon/github_negative.png";
 import LinkedinIcon from "../../../public/images/sns-icon/linkedIn_negative.png";
@@ -17,8 +17,6 @@ const EmailSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     const userEmail = e.target.email.value;
-    const subject = e.target.subject.value;
-    const message = e.target.message.value;
 
     if (!isValidEmail(userEmail)) {
       alert("Please enter a valid email address.");
@@ -32,8 +30,8 @@ const EmailSection = () => {
         {
           to_email: "fernnichanun@gmail.com",
           from_email: userEmail,
-          subject: subject,
-          message_html: message,
+          subject: "Resume & Portfolio Request",
+          message_html: "Please send me your resume and portfolio.",
         },
         "NFyFFPYZ2gdUOlgMg"
       )
@@ -41,7 +39,7 @@ const EmailSection = () => {
         function (response) {
           console.log("Email sent successfully", response);
           alert(
-            "Email sent successfully. I will get back to you shortly."
+            "Email sent successfully. I will send you my resume and portfolio shortly."
           );
           setEmailSubmitted(true);
         },
@@ -105,36 +103,6 @@ const EmailSection = () => {
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={sendEmail}>
-            <div className="mb-6">
-              <label
-                htmlFor="subject"
-                className="text-white block text-sm mb-2 font-medium"
-              >
-                Subject
-              </label>
-              <input
-                name="subject"
-                type="text"
-                id="subject"
-                required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Your subject"
-              />
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="message"
-                className="text-white block text-sm mb-2 font-medium"
-              >
-                Message
-              </label>
-              <textarea
-                name="message"
-                id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
-              />
-            </div>
             <div className="mb-6">
               <label
                 htmlFor="email"
