@@ -10,7 +10,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         style={{
           // Add inline styles here
           backgroundImage: `url(${imgUrl})`,
-          height: "250px", // Adjust the height for mobile
+          height: "150px", // Adjust the height for mobile
           borderRadius: "8px", // Adjust the border radius for mobile
         }}
       >

@@ -10,7 +10,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         style={{
           // Add inline styles here
           backgroundImage: `url(${imgUrl})`,
-          height: "250px", // Adjust the height for mobile
+          height: "150px", // Adjust the height for mobile
           borderRadius: "8px", // Adjust the border radius for mobile
         }}
       >
@@ -33,7 +33,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-md font-semibold mb-2">{title}</h5>
-        <p className="text-sm text-[#ADB7BE]">{description}</p>
+        <p className="text-[#ADB7BE]">{description}</p>
       </div>
     </div>
   );
