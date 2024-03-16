@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
       {/* <head>
         <link rel="shortcut icon" type="image/png" href="/carrot.png" />
       </head> */}
+      <link rel="shortcut icon" type="image/png" href="/carrot.png" />
       <body className={poppins.className}>{children}</body>
     </html>
   );
