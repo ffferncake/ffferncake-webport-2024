@@ -10,16 +10,25 @@ const poppins = Poppins({
 export const metadata = {
   title: "Fern Nichanun",
   description: "Ferncake Web Portfolio",
-  // icons: [{ rel: 'icon', url: Favicon }],
+
+  icons: {
+    icon: "/carrot.png",
+    shortcut: "/carrot.png",
+    apple: "/carrot.png",
+    other: {
+      rel: "shortcut icon",
+      url: "/carrot.png"
+    }
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-      <link rel="icon" type="image/png" href="/images/carrot.png" />
-      </head>
-      <body className={poppins.className}>{children}</body>      
+      {/* <head>
+        <link rel="shortcut icon" type="image/png" href="/carrot.png" />
+      </head> */}
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }
