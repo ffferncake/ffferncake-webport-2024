@@ -10,7 +10,7 @@ const projectsData = [
     title: "Obstacle Avoidance Web Application",
     description: "Obstacle avoidance, Best route/direction finding",
     image: "/images/portfolio/web_direction_1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Disaster & Weather Monitoring Web Map",
     description: "temperature, pressure, wind, etc real-time monitoring",
     image: "/images/portfolio/web_monitoring.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -47,7 +47,7 @@ const projectsData = [
     description:
       "An app that checks the area or location of protected forests and checks for overlapping forests",
     image: "/images/portfolio/forest_mobile.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -56,7 +56,7 @@ const projectsData = [
     title: "Monitoring working status mobile application",
     description: "Real-time working status monitoring ",
     image: "/images/portfolio/mwa_mobile.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -74,7 +74,7 @@ const projectsData = [
     title: "University Map",
     description: "Kasetsart University map and building information",
     image: "/images/portfolio/KU_webmap_1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -84,7 +84,7 @@ const projectsData = [
     description: "checking and filtering fire hotspot information",
     image: "/images/portfolio/hotspot_check_1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/ffferncake/fire-hotspot-check",
+    gitUrl: "https://github.com/ffferncake/fire-hotspot-check"
     // previewUrl: "/"
   },
   {
@@ -92,7 +92,7 @@ const projectsData = [
     title: "direction app design",
     description: "",
     image: "/images/portfolio/web_direction_design.png",
-    tag: ["All", "Design"],
+    tag: ["All", "Design"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -101,7 +101,7 @@ const projectsData = [
     title: "monitoring app design (1)",
     description: "",
     image: "/images/portfolio/web_monitoring_design_1.png",
-    tag: ["All", "Design"],
+    tag: ["All", "Design"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -110,7 +110,7 @@ const projectsData = [
     title: "monitoring app design (2)",
     description: "",
     image: "/images/portfolio/web_monitoring_design_2.png",
-    tag: ["All", "Design"],
+    tag: ["All", "Design"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -119,7 +119,7 @@ const projectsData = [
     title: "web service (api) design",
     description: "",
     image: "/images/portfolio/api_service_design.png",
-    tag: ["All", "Design"],
+    tag: ["All", "Design"]
     // gitUrl: "/",
     // previewUrl: "/"
   },
@@ -139,8 +139,19 @@ const projectsData = [
     image: "/images/portfolio/Baram_design.png",
     tag: ["All", "Design"],
     // gitUrl: "https://github.com/ffferncake/ffferncake-webport",
-    // previewUrl: "https://ferncake.netlify.app/"
+    previewUrl:
+      "https://www.figma.com/file/nM9qKrxwrmxnX1GCUUxPp8/travel-app-design"
   },
+  {
+    id: 16,
+    title: "Ah-Chim Cofee Shop UI",
+    description: "Coffee Shop Design",
+    image: "/images/portfolio/Ah-ChimCoffeeShop.png",
+    tag: ["All", "Design"],
+    // gitUrl: "https://github.com/ffferncake/ffferncake-webport",
+    previewUrl:
+      "https://www.figma.com/proto/mG1JDAtrenAyoRgBBP4bIO/%EC%95%84%EC%B9%A8-Coffee-Shop-App-UI?type=design&node-id=11-2&t=UguZ5O5wQtZL3uWV-1&scaling=scale-down&page-id=0%3A1&mode=design"
+  }
 ];
 
 const ProjectsSection = () => {
